@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="An animated p5.js model of the Solar System." />
+    <title>Solar System — p5.js</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">AN ORBITAL PORTRAIT</p>
+        <h1>Our Solar System</h1>
+        <p class="intro">Eight worlds, five dwarf planets, and their moons in motion.</p>
+      </header>
+      <div class="controls" aria-label="Animation controls">
+        <label>
+          <span>Orbit speed <output id="speed-value">1.0×</output></span>
+          <input id="speed-control" type="range" min="0" max="3" value="1" step="0.1" />
+        </label>
+        <label>
+          <span>Label size <output id="label-value">100%</output></span>
+          <input id="label-control" type="range" min="0.7" max="2" value="1" step="0.1" />
+        </label>
+      </div>
+      <div id="canvas-container" aria-label="Animated diagram of the Solar System"></div>
+      <footer>Not to scale · Press <kbd>Space</kbd> to pause · Press <kbd>L</kbd> to toggle labels</footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
