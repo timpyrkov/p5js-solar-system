@@ -1,4 +1,9 @@
-# p5js-solar-system
+<h1><p align="left">
+  <img src="https://github.com/timpyrkov/p5js-solar-system/blob/master/img/logo.png?raw=true" alt="P5JS Solar System logo" height="30" style="vertical-align: middle; margin-right: 10px;">
+  <span style="font-size:2.5em; vertical-align: middle;"><b>P5JS Solar System</b></span>
+</p></h1>
+
+![Dashboard preview](https://github.com/timpyrkov/p5js-solar-system/blob/master/img/dashboard.jpg?raw=true)
 
 An animated, labeled portrait of the Solar System built with p5.js. It uses a 1200 × 800 canvas and includes the eight planets, their major satellites, the asteroid and Kuiper belts, and five dwarf planets.
 
