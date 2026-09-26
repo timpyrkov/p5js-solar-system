@@ -47,6 +47,7 @@ function setup() {
   }
   const speedControl = document.getElementById('speed-control');
   const labelControl = document.getElementById('label-control');
+  if (labelControl) labelControl.max = 5;
   speedControl.addEventListener('input', () => {
     speedScale = Number(speedControl.value);
     document.getElementById('speed-value').value = `${speedScale.toFixed(1)}×`;
